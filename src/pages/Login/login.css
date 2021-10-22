@@ -1,0 +1,144 @@
+
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgb(48, 48, 48);
+    color: white;
+
+    
+}
+
+
+
+.logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.login-right{
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.login-right h1 {
+    font-family: 'Noto Sans Mono';
+    font-size: 50px;
+    
+}
+
+.login-right h4 {
+    font-family: 'Noto Sans Mono';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.login-email {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: rgb(31, 30, 30);
+    border-radius: 3px;
+    padding: 3px;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.login-email svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-email input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-password{
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: rgb(31, 30, 30);
+    border-radius: 3px;
+    padding: 3px;
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.login-password svg{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.login-password input{
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    
+}
+
+.login-right button {
+    width: 500px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    font-family: 'Noto Sans Mono';
+    margin-left: 20px;
+    margin-right: 20px;
+
+    outline-width: 0;
+}
+
+.login-right button:hover {
+    background-color: rgb(90, 201, 252);
+    color: white;
+    cursor: pointer;
+}
+
+.login-eye{
+    cursor: pointer;
+}
